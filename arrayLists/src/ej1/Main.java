@@ -1,6 +1,5 @@
 package ej1;
 import java.util.ArrayList;
-import java.util.Scanner;
 import java.util.Iterator;
 
 public class Main {
@@ -20,12 +19,13 @@ array.add("ArrayLists");
 for (String pos: array) {
 	System.out.println(pos);
 }
+System.out.println("-------------------------");
+//Ej2 desde aqui.
 int count = 0;
 Iterator <String> it = array.iterator();
 while (it.hasNext()) {
-		System.out.println(count);
 		if (count %2 == 0) {
-		System.out.println(it.next());}	else it.next(); count++;}
+		System.out.println(it.next());
+		}else { it.next();} count++;
 		}
-
-}
+}}
