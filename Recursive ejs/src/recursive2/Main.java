@@ -16,11 +16,11 @@ public class Main {
 	}
 	public static void main(String[] args) {
 
-			int numero;
-			int exp;
-			Scanner teclado = new Scanner(System.in);
+		int numero;
+		int exp;
+		Scanner teclado = new Scanner(System.in);
 
-	        System.out.print("Introduzca un número: ");
+	        System.out.print("Introduzca un nÃºmero: ");
 	        numero = teclado.nextInt();
 	        System.out.print("Introduzca un exponente: ");
 	        exp = teclado.nextInt();
@@ -31,7 +31,7 @@ public class Main {
 	        }
 	        else
 	        {
-	            System.out.println("ERROR: El número debe ser mayor que cero.");
+	            System.out.println("ERROR: El nÃºmero debe ser mayor que cero.");
 	        }
 	        teclado.close();
 	}
